@@ -1,3 +1,4 @@
+x=15
 bad=0
 okay=15
 good=20
@@ -7,21 +8,21 @@ print(bill)
 input("how was the service")
 values=(0,15,20,25)
 print(values)
-if bill ==0:
+if x ==0:
     print("bad")
-if bill==15:
+if x==15:
     print("okay")
-if bill==20:
+if x==20:
     print("good")
-if bill==25:
+if x==25:
     print("great")
 input("how much would you like tip?")
 print(values)
-if bill == bad:
+if x == bad:
     print ("0% tip")
-if bill == okay:
+elif x==okay:
     input("15% tip")
-if bill == good:
-    input("20% tip")
-if bill == great:
+else :x== good
+input("20% tip")
+if x == great:                                              
     input("25% tip")
