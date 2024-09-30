@@ -1,8 +1,9 @@
 a= int(input("Input a number"))
 b=int(input("input another number"))
-skibidi=[]
-def factor(a,b):
-    factor(a,b)
-for i in range:
-    a%i==0 and b%i==0
-print(skibidi[i])
+sigma=[]
+def factors(a,b):
+    for i in range(1, a+1):
+        if a % i == 0 and b % i == 0:
+            sigma.append(i)
+            factors(a,b)
+            print(sigma[1])
